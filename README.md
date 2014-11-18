@@ -31,3 +31,6 @@ Installed packages/preferences are in ~/Dropbox/Config/Sublime. [point new subli
 - Generator
 - Measure
 - Text Uppercase
+
+### [Further reading](http://sourabhbajaj.com/mac-setup/)
+
