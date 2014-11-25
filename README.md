@@ -30,7 +30,7 @@ Installed packages/preferences are in ~/Dropbox/Config/Sublime. [point new subli
 - Vertical Fit
 - Generator
 - Measure
-- Text Uppercase
+- Notebook
 
 ### [Further reading](http://sourabhbajaj.com/mac-setup/)
 
