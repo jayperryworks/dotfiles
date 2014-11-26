@@ -1,0 +1,41 @@
+# Mac OSX-generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vim swap files
+.*.sw?
+
+# Pow and Powder config
+/.pow*
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# RVM and rbenv
+/.rvmrc
+/.rbenv-version
+
+# Bundler binstubs
+/bin/
+
+#Ignore sublime project files
+*.sublime-*
+
+# Ignore preprocessor caches, maps
+/.sass-cache
+/.cache
+*.map
+*.scssc
+.codekit-config.json
+config.codekit
