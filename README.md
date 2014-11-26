@@ -8,7 +8,7 @@
 1. install [xcode, homebrew, rvm & node](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1)
 2. set up system config files:
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
-    2. add Brewfile and .bash_profile to user root
+    2. add .bash_profile to user root
 3. install apps from app store (both personal and business accts)
 4. download Brewfile & save to user root. run `$ brew bundle` to install command line stuff & non-app-store apps
 5. set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
