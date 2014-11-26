@@ -1,0 +1,9 @@
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[user]
+	name = Jay Perry
+	email = j@jayperryworks.com
+[core]
+	excludesfile = ~/.gitignore_global
