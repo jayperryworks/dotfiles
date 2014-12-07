@@ -20,8 +20,11 @@ cask install vagrant
 cask install alfred
 cask install sublime-text
 cask install github
-cask install sketch-toolbox
+cask install iterm
 cask install scroll-reverser
+
+# graphics
+cask install sketch-toolbox
 
 # communications
 cask install postbox
@@ -31,6 +34,7 @@ cask install hipchat
 # browsers
 cask install google-chrome
 cask install firefox
+cask install opera
 
 # entertainment
 cask install rdio
