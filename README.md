@@ -35,5 +35,8 @@ Installed packages/preferences are in ~/Dropbox/Config/Sublime. [point new subli
 - Measure
 - Notebook
 
-### [Further reading](http://sourabhbajaj.com/mac-setup/)
+### [Further reading]
+- http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1
+- http://sourabhbajaj.com/mac-setup/
+- http://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-1-core-files-and-custom-shell
 
