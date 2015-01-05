@@ -8,6 +8,7 @@
 # https://raw.githubusercontent.com/ChristopherA/dotfiles/master/install/brewfile-basic.sh
 
 # The "Brewfile" way of doing this got deprecated, but it looks like this can be run as a shell script with minor changes.
+# Usage: $ ./brew-install.sh
  
 # Make sure things are current
 brew update
