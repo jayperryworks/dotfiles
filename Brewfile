@@ -30,7 +30,7 @@ cask install sketch-toolbox
 cask install adobe-creative-cloud
 
 # communications
-cask install postbox
+# cask install postbox
 cask install mailbox
 cask install hipchat
 
