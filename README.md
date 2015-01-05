@@ -10,7 +10,7 @@
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
     2. add .bash_profile to user root
 3. install apps from app store (both personal and business accts)
-4. download Brewfile & save to user root. run `$ brew bundle` to install command line stuff & non-app-store apps
+4. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps
 5. set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
 6. get the Font Explorer Pro backup from archive > software > Font Explorer. download quick install DMG and the backup. put the quick install in the /Applications and run it, then do file > local backup > restore. point the restore to the ~/fonts/font-library folder, where it will set up all the font files. then link to cloudstation, where it will sync to NAS.
 7. manually download critical folders from NAS first (projects, fonts, etc.), then set up Cloud Station to finish syncing. CS will take forever by itself.
