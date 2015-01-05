@@ -2,6 +2,8 @@
 # ------------------------------------------------------------------------
 # http://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew
 # http://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-2-global-package-managers
+
+# Looks like this has been deprecated, so need to replace with a shell script or something
  
 # Install Cask
 install caskroom/cask/brew-cask
@@ -25,6 +27,7 @@ cask install scroll-reverser
 
 # graphics
 cask install sketch-toolbox
+cask install adobe-creative-cloud
 
 # communications
 cask install postbox
