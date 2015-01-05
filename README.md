@@ -25,7 +25,7 @@
 10. download [google music manager](https://support.google.com/googleplay/answer/1229970?hl=en) and point to music server (:Volumes/Music)
 
 ### Sublime text config:
-Installed packages/preferences are in ~/Dropbox/Config/Sublime. [point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx)
+Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st2). Installed packages/preferences are in ~/Dropbox/Config/Sublime. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
 
 ### Sketch plugins
 - Sketch Framer
