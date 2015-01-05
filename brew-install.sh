@@ -10,8 +10,8 @@
 # https://github.com/kylegordy/Brew-Install-Script
 
 # The "Brewfile" way of doing this got deprecated, but it looks like this can be run as a shell script with minor changes.
-# Usage: 
-# Usage: $ ./brew-install.sh
+# Usage: $ chmod +x brew-install.sh
+#        $ ./brew-install.sh
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
