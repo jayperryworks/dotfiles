@@ -1,5 +1,4 @@
 export PATH="/usr/local/bin:$PATH"
-export PATH=/usr/local/bin:$PATH
 # Specify your defaults in this environment variable
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
