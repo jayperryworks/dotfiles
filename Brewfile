@@ -1,44 +1,55 @@
-# Jay's Brewfile with Casks
+#!/bin/sh
+
+# Homebrew shell script (with various casks)
 # ------------------------------------------------------------------------
 # http://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew
 # http://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-2-global-package-managers
+# https://gist.github.com/yosukehiyoshi/fa070e3b2d581bee9903
+# https://raw.githubusercontent.com/ChristopherA/dotfiles/master/install/brewfile-basic.sh
 
-# Looks like this has been deprecated, so need to replace with a shell script or something
+# The "Brewfile" way of doing this got deprecated, but it looks like this can be run as a shell script with minor changes.
  
+# Make sure things are current
+brew update
+brew upgrade
+
 # Install Cask
-install caskroom/cask/brew-cask
+brew install caskroom/cask/brew-cask
  
 # Install Casks
 #--------------------------------
 
 # file sync/FTP
-cask install dropbox
-cask install synology-cloud-station
-cask install transmit
+brew cask install dropbox
+brew cask install synology-cloud-station
+brew cask install transmit
 
 # tools
-cask install virtualbox
-cask install vagrant
-cask install alfred
-cask install sublime-text
-cask install github
-cask install iterm
-cask install scroll-reverser
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install alfred
+brew cask install sublime-text
+brew cask install github
+brew cask install iterm
+brew cask install scroll-reverser
 
 # graphics
-cask install sketch-toolbox
-cask install adobe-creative-cloud
+brew cask install sketch-toolbox
+brew cask install adobe-creative-cloud
 
 # communications
-# cask install postbox
-cask install mailbox
-cask install hipchat
+# brew cask install postbox
+brew cask install mailbox
+brew cask install hipchat
 
 # browsers
-cask install google-chrome
-cask install firefox
-cask install opera
+brew cask install google-chrome
+brew cask install firefox
+brew cask install opera
 
 # entertainment
-cask install rdio
-cask install steam
+brew cask install rdio
+brew cask install steam
+
+brew cask cleanup
+brew cleanup
