@@ -59,6 +59,7 @@ apps=(
 	alfred
 	sublime-text
 	github
+	java6
 	# iterm
 	# scroll-reverser
 
