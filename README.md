@@ -41,12 +41,20 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 - Cemre Sketch plugins
 
 ### Browser extensions
-- Pocket
-- Evernote
-- Pinterest
-- Pushbullet
-- 1Password
-- AdBlock
+
+### Safari
+- [Pocket](https://getpocket.com/safari/)
+- [Evernote](https://evernote.com/webclipper/?downloaded)
+- [Pinterest](https://safari-extensions.apple.com/details/?id=com.pinterest.extension-HWZFLG9PNK)
+- [Pushbullet](https://www.pushbullet.com/apps)
+- [1Password](https://agilebits.com/onepassword/extensions)
+- [AdBlock](https://getadblock.com)
+
+#### Chrome
+- [Ember Inspector](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+- [Emmet Re:View](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp)
+- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 
 ### Further reading
 - http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1
