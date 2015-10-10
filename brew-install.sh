@@ -27,6 +27,7 @@ brew doctor
 binaries=(
 	node
 	git
+	pandoc
 )
 
 # Install Binaries
