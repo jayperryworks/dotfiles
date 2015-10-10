@@ -42,7 +42,7 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 
 ### Browser extensions
 
-### Safari
+#### Safari
 - [Pocket](https://getpocket.com/safari/)
 - [Evernote](https://evernote.com/webclipper/?downloaded)
 - [Pinterest](https://safari-extensions.apple.com/details/?id=com.pinterest.extension-HWZFLG9PNK)
