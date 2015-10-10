@@ -20,13 +20,13 @@
   1. [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > _preferences
   2. [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
   3. printer:
-    1. turn on printer
-    2. (on mac) control panel > printers & scanners > add.
-    3. select usbprinter1 (or whatever) from NAS
-11. download [google music manager](https://support.google.com/googleplay/answer/1229970?hl=en) and point to music server (:Volumes/Music)
+    1. [get drivers as needed](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=233679&infoType=Downloads&platform=OSF_W_8-32)
+    2. turn on printer
+    3. (on mac) control panel > printers & scanners > add.
+    4. select Epson printer
 
 ### Sublime text config:
-Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st2). Installed packages/preferences are in ~/Dropbox/Config/Sublime. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
+Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st3). Installed packages/preferences are in ~/Dropbox/Config/Sublime. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
 
 ### Sketch plugins
 - Sketch Framer
@@ -35,10 +35,21 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 - Generator
 - Measure
 - Notebook
+- Duplicator
+- Sketch Mate
+- Swatches
+- Cemre Sketch plugins
+
+### Browser extensions
+- Pocket
+- Evernote
+- Pinterest
+- Pushbullet
+- 1Password
+- AdBlock
 
 ### Further reading
 - http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1
 - http://sourabhbajaj.com/mac-setup/
 - http://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-1-core-files-and-custom-shell
 - https://github.com/thoughtbot/dotfiles
-
