@@ -52,30 +52,31 @@ apps=(
 	dropbox
 	synology-cloud-station
 	transmit
-
-	# tools
 	virtualbox
 	vagrant
+	github-desktop
+
+	# tools
 	alfred
-	sublime-text
-	github
-	java6
-	# iterm
-	# scroll-reverser
+	sublime-text3
+	colorpicker-skalacolor
+	heroku-toolbelt
+	toggldesktop
+	flux
 
 	# graphics
 	sketch-toolbox
-	adobe-creative-cloud
+	mapbox-studio
 
 	# communications
-	# postbox
 	mailbox
-	hipchat
+	slack
+	skype
+	zoomus
 
 	# browsers
 	google-chrome
 	firefox
-	opera
 
 	# entertainment
 	rdio
