@@ -6,7 +6,7 @@
 ## To set up a new mac:
 
 1. download these files and move to user root. you may need to [reveal hidden files in the finder](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
-2. install [xcode & rvm](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1)
+2. install [xcode & rvm](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1) and [node](https://nodejs.org/en/download/package-manager/#osx): `curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"`
 3. set up system config files:
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
     2. add .bash_profile to user root
