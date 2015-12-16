@@ -25,7 +25,6 @@ brew upgrade
 brew doctor
 
 binaries=(
-	node
 	git
 	pandoc
 )
@@ -70,7 +69,6 @@ apps=(
 	mapbox-studio
 
 	# communications
-	mailbox
 	slack
 	skype
 	zoomus
@@ -78,9 +76,10 @@ apps=(
 	# browsers
 	google-chrome
 	firefox
+	opera
 
 	# entertainment
-	rdio
+	spotify
 	steam
 )
 
