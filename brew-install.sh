@@ -49,8 +49,6 @@ brew tap caskroom/versions
 apps=(
 
 	# file sync/FTP
-	dropbox
-	synology-cloud-station
 	transmit
 	virtualbox
 	vagrant
