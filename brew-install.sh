@@ -49,6 +49,7 @@ brew tap caskroom/versions
 apps=(
 
 	# file sync/FTP
+	google-drive
 	transmit
 	virtualbox
 	vagrant
@@ -61,6 +62,7 @@ apps=(
 	heroku-toolbelt
 	toggldesktop
 	flux
+	google-photos-backup
 
 	# graphics
 	sketch-toolbox
