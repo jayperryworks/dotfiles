@@ -13,12 +13,11 @@
 4. set up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
 5. install apps from app store (both personal and business accts)
 6. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
-7. set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
+7. [Download](https://www.dropbox.com/install) & set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
 8. get the Font Explorer Pro backup from archive > software > Font Explorer. download quick install DMG and the backup. put the quick install in the /Applications and run it, then do file > local backup > restore. point the restore to the ~/fonts/font-library folder, where it will set up all the font files. then link to cloudstation, where it will sync to NAS.
-9. manually download critical folders from NAS first (projects, fonts, etc.), then set up Cloud Station to finish syncing. CS will take forever by itself.
-10. grab misc preferences from archive > software > _preferences to configure everything
-11. download/set up drivers:
-  1. [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > _preferences
+9. grab misc preferences from backup > software > \_preferences to configure everything
+10. download/set up drivers:
+  1. [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
   2. [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
   3. printer:
     1. [get drivers as needed](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=233679&infoType=Downloads&platform=OSF_W_8-32)
@@ -56,6 +55,7 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 - [Emmet Re:View](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp)
 - [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 ### Further reading
 - http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1
