@@ -56,8 +56,8 @@ apps=(
 	github-desktop
 
 	# tools
-	alfred
-	sublime-text3
+	# alfred - need to manually install v2
+	sublime-text
 	colorpicker-skalacolor
 	heroku-toolbelt
 	toggldesktop
