@@ -5,6 +5,7 @@
 
 ## To set up a new mac:
 
+1. set up [privacy settings](https://spreadprivacy.com/mac-privacy-tips-13395592a9b4) and [hosts file](someonewhocares.org).
 1. download these files and move to user root. you may need to [reveal hidden files in the finder](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
 2. install [xcode & rvm](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1) and [node](https://nodejs.org/en/download/package-manager/#osx): `curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"`
 3. set up system config files:
@@ -17,9 +18,9 @@
 8. get the Font Explorer Pro backup from archive > software > Font Explorer. download quick install DMG and the backup. put the quick install in the /Applications and run it, then do file > local backup > restore. point the restore to the ~/fonts/font-library folder, where it will set up all the font files. then link to cloudstation, where it will sync to NAS.
 9. grab misc preferences from backup > software > \_preferences to configure everything
 10. download/set up drivers:
-  1. [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
-  2. [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
-  3. printer:
+  - [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
+  - [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
+  - printer:
     1. [get drivers as needed](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=233679&infoType=Downloads&platform=OSF_W_8-32)
     2. turn on printer
     3. (on mac) control panel > printers & scanners > add.
@@ -30,7 +31,6 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 
 ### Sketch plugins
 - Sketch Framer
-- Dynamic Button
 - Vertical Fit
 - Generator
 - Measure
