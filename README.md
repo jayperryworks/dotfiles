@@ -15,7 +15,9 @@
 5. install apps from app store (both personal and business accts)
 6. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
 7. [Download](https://www.dropbox.com/install) & set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
-8. get the Font Explorer Pro backup from archive > software > Font Explorer. download quick install DMG and the backup. put the quick install in the /Applications and run it, then do file > local backup > restore. point the restore to the ~/fonts/font-library folder, where it will set up all the font files. then link to cloudstation, where it will sync to NAS.
+8. install Rightfont and hook it up to synced folders:
+  - Dropbox/fonts
+  - Bivee font repository
 9. grab misc preferences from backup > software > \_preferences to configure everything
 10. download/set up drivers:
   - [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
