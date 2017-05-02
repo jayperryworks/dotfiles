@@ -16,17 +16,17 @@
 6. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
 7. [Download](https://www.dropbox.com/install) & set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
 8. install Rightfont and hook it up to synced folders:
-  - Dropbox/fonts
-  - Bivee font repository
+    - `Dropbox/fonts`
+    - Bivee font repository
 9. grab misc preferences from backup > software > \_preferences to configure everything
 10. download/set up drivers:
-  - [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
-  - [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
-  - printer:
-    1. [get drivers as needed](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=233679&infoType=Downloads&platform=OSF_W_8-32)
-    2. turn on printer
-    3. (on mac) control panel > printers & scanners > add.
-    4. select Epson printer
+    - [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
+    - [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
+    - printer:
+      1. [get drivers as needed](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=233679&infoType=Downloads&platform=OSF_W_8-32)
+      2. turn on printer
+      3. (on mac) control panel > printers & scanners > add.
+      4. select Epson printer
 
 ### Sublime text config:
 Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st3). Installed packages/preferences are in ~/Dropbox/Config/Sublime. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
@@ -46,15 +46,11 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 
 #### Safari
 - [Pocket](https://getpocket.com/safari/)
-- [Evernote](https://evernote.com/webclipper/?downloaded)
 - [Pinterest](https://safari-extensions.apple.com/details/?id=com.pinterest.extension-HWZFLG9PNK)
-- [Pushbullet](https://www.pushbullet.com/apps)
 - [1Password](https://agilebits.com/onepassword/extensions)
 - [AdBlock](https://getadblock.com)
 
 #### Chrome
-- [Ember Inspector](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-- [Emmet Re:View](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp)
 - [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
