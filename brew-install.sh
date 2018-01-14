@@ -49,7 +49,6 @@ brew tap caskroom/versions
 apps=(
 
 	# file sync/FTP
-	google-drive
 	transmit
 	virtualbox
 	vagrant
@@ -60,18 +59,20 @@ apps=(
 	sublime-text
 	colorpicker-skalacolor
 	heroku-toolbelt
-	toggldesktop
-	flux
-	google-photos-backup
+	calibre
+	fontstand
+	imageoptim
+	pdfexpert
 
 	# graphics
-	sketch-toolbox
-	mapbox-studio
+	unity
+	blender
 
 	# communications
 	slack
 	skype
 	zoomus
+	muzzle
 
 	# browsers
 	google-chrome
