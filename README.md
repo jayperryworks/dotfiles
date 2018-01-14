@@ -14,9 +14,9 @@
 4. set up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
 5. install apps from app store (both personal and business accts)
 6. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
-7. [Download](https://www.dropbox.com/install) & set up Dropbox immediately and get it downloading files. set up selective syncing (prefs > accts > selective sync btn)
+7. [Download](https://www.dropbox.com/install) & set up Dropbox & Google Drive
 8. install Rightfont and hook it up to synced folders:
-    - `Dropbox/fonts`
+    - `Documents/fonts`
     - Bivee font repository
 9. grab misc preferences from backup > software > \_preferences to configure everything
 10. download/set up drivers:
