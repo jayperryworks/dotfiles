@@ -32,15 +32,15 @@
 Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st3). Installed packages/preferences are in ~/Dropbox/Config/Sublime. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
 
 ### Sketch plugins
-- Sketch Framer
-- Vertical Fit
-- Generator
-- Measure
-- Notebook
-- Duplicator
-- Sketch Mate
-- Swatches
-- Cemre Sketch plugins
+- RenameIt
+- Runner
+- Guides
+- Abstract
+- Craft
+- Git
+- Shared Text Styles
+- Sketch Palettes
+- SVGO Compressor
 
 ### Browser extensions
 
@@ -48,7 +48,6 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 - [Pocket](https://getpocket.com/safari/)
 - [Pinterest](https://safari-extensions.apple.com/details/?id=com.pinterest.extension-HWZFLG9PNK)
 - [1Password](https://agilebits.com/onepassword/extensions)
-- [AdBlock](https://getadblock.com)
 
 #### Chrome
 - [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
