@@ -20,7 +20,7 @@
     - Bivee font repository
 9. grab misc preferences from backup > software > \_preferences to configure everything
 10. download/set up drivers:
-    - [wacom tablet](http://us.wacom.com/en/support/legacy-drivers/) - prefs are in Archive > Software > \_preferences
+    - [wacom tablet](http://wacom.com/en-us/support/product-support/drivers) - prefs are in Archive > Software > \_preferences
     - [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
     - printer:
       1. [get drivers as needed](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=233679&infoType=Downloads&platform=OSF_W_8-32)
