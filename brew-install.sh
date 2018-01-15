@@ -27,6 +27,7 @@ brew doctor
 binaries=(
 	git
 	pandoc
+	node
 )
 
 # Install Binaries
@@ -37,7 +38,7 @@ brew install ${binaries[@]}
 brew cleanup
 
 # Install Cask
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 
 # Tap Versions to install beta versions of apps like Chrome Canary or Sublime Text 3
 brew tap caskroom/versions
@@ -50,23 +51,14 @@ apps=(
 
 	# file sync/FTP
 	transmit
-	virtualbox
-	vagrant
-	github-desktop
+	github
 
 	# tools
 	# alfred - need to manually install v2
 	sublime-text
 	colorpicker-skalacolor
-	heroku-toolbelt
-	calibre
 	fontstand
-	imageoptim
 	pdfexpert
-
-	# graphics
-	unity
-	blender
 
 	# communications
 	slack
