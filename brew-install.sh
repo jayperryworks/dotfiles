@@ -54,14 +54,13 @@ apps=(
 	github
 
 	# tools
-	# alfred - need to manually install v2
+	# alfred - need to download directly from website
 	sublime-text
 	colorpicker-skalacolor
 	fontstand
-	pdfexpert
+	pdf-expert
 
 	# communications
-	slack
 	skype
 	zoomus
 	muzzle
