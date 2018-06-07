@@ -28,6 +28,7 @@ binaries=(
 	git
 	pandoc
 	node
+	yarn
 )
 
 # Install Binaries
