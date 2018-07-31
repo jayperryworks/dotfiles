@@ -15,6 +15,15 @@
 4. set up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
 5. install apps from app store (both personal and business accts)
 6. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
+6. Configure Postgresql after Brew installs it:
+    1. `$ psql postgres -U [your mac username]`
+    2. `CREATE ROLE postgres SUPERUSER;`
+    3. `ALTER ROLE postgres WITH LOGIN;`
+    4. `ALTER ROLE postgres WITH CREATEROLE;`
+    5. `ALTER ROLE postgres WITH CREATEDB;`
+    6. `\du` to check user table.
+    7. `\list` to see a list of databases.
+    8. `\q` to quit.
 7. Download & set up [Dropbox](https://www.dropbox.com/install) & [Google Drive](https://support.google.com/drive/answer/7329379?hl=en)
 8. install [Rightfont](https://rightfontapp.com) and hook it up to synced folders:
     - `Documents/fonts`
