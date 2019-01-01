@@ -39,7 +39,7 @@
       4. select Epson printer
 
 ### Sublime text config:
-Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st3). Installed packages/preferences are in ~/Dropbox/Config/Sublime. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
+Launch Sublime Text and [install package control](https://packagecontrol.io/installation#st3). Installed packages/preferences are in `~/Documents/Config/Sublime`. [Point new sublime installation to this folder](https://sublime.wbond.net/docs/syncing#dropbox-osx), and package control will automatically install all the packages, prefs, etc.
 
 ### Sketch plugins
 Use the same aliasing trick as Sublime, above, for Sketch plugins. Go to `Plugins > Manage Plugins` and then select the gear at the bottom left and `Reveal Plugins Folder`. `cd` into this in terminal, delete the plugins folder, and create an alias pointing to the synced folder: `ln -s ~/Documents/Config/Sketch/Plugins`.
