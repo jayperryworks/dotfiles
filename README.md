@@ -5,7 +5,7 @@
 
 ## To set up a new mac:
 
-1. set up [privacy settings](https://spreadprivacy.com/mac-privacy-tips-13395592a9b4) and [hosts file](someonewhocares.org).
+1. set up [privacy settings](https://spreadprivacy.com/mac-privacy-tips-13395592a9b4) and [hosts file](https://someonewhocares.org/hosts/hosts).
 1. download these files and move to user root. you may need to [reveal hidden files in the finder](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
 1. install [terminal theme](https://github.com/robinbentley/oceanic-next-macos-terminal).
 2. install [xcode & rvm](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1) and [node](https://nodejs.org/en/download/package-manager/#osx): `curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"`
