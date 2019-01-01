@@ -26,6 +26,7 @@ brew doctor
 
 binaries=(
 	git
+	git-lfs
 	pandoc
 	node
 	yarn
@@ -60,6 +61,7 @@ apps=(
 	colorpicker-skalacolor
 	fontstand
 	pdf-expert
+	clockify
 
 	# communications
 	skype
