@@ -82,4 +82,4 @@ echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
 # Clean up caches, symlinks
-brew cask cleanup
+brew cleanup
