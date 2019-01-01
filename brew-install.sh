@@ -30,6 +30,8 @@ binaries=(
 	pandoc
 	node
 	yarn
+	postgresql
+	redis
 )
 
 # Install Binaries
