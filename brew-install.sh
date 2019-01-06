@@ -32,6 +32,7 @@ binaries=(
 	yarn
 	postgresql
 	redis
+	# libdvdcss - for digitizing my dvds
 )
 
 # Install Binaries
@@ -64,6 +65,7 @@ apps=(
 	fontstand
 	pdf-expert
 	clockify
+	# handbrake - for digitizing my dvds
 
 	# communications
 	skype
