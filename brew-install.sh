@@ -27,9 +27,7 @@ brew doctor
 binaries=(
 	git
 	git-lfs
-	pandoc
-	node
-	yarn
+	asdf
 	postgresql
 	redis
 	# libdvdcss - for digitizing my dvds
@@ -61,14 +59,12 @@ apps=(
 	# tools
 	# alfred - need to download directly from website
 	sublime-text
-	colorpicker-skalacolor
-	fontstand
 	pdf-expert
 	clockify
+	rightfont
 	# handbrake - for digitizing my dvds
 
 	# communications
-	skype
 	zoomus
 	muzzle
 
