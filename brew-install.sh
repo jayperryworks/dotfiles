@@ -62,6 +62,7 @@ apps=(
 	pdf-expert
 	clockify
 	rightfont
+	hyperbackupexplorer
 	# handbrake - for digitizing my dvds
 
 	# communications
@@ -75,7 +76,6 @@ apps=(
 
 	# entertainment
 	spotify
-	steam
 )
 
 # Install apps to /Applications
