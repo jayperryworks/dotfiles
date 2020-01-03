@@ -40,19 +40,12 @@ brew install ${binaries[@]}
 
 # Clean up caches
 brew cleanup
-
-# Install Cask
-brew tap caskroom/cask
-
-# Tap Versions to install beta versions of apps like Chrome Canary or Sublime Text 3
-brew tap caskroom/versions
  
 # Install Casks
 #--------------------------------
 
 # Apps
 apps=(
-
 	# file sync/FTP
 	transmit
 
@@ -69,7 +62,7 @@ apps=(
 	google-chrome
 	firefox
 	opera
-	private-internet-explorer
+	private-internet-access
 	zoomus
 	muzzle
 
