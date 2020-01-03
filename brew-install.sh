@@ -54,7 +54,6 @@ apps=(
 
 	# file sync/FTP
 	transmit
-	github
 
 	# tools
 	# alfred - need to download directly from website
