@@ -51,10 +51,11 @@ Use the same aliasing trick as Sublime, above, for Sketch plugins. Go to `Plugin
 - [1Password](https://agilebits.com/onepassword/extensions)
 - [Todoist](https://apps.apple.com/us/app/todoist-to-do-list-tasks/id585829637?mt=12)
 
-#### Chrome
-- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
-- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+#### Firefox
+- [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
+- [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+- [Vue Devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+- [1Password](https://1password.com/browsers/firefox/)
 
 ### Further reading
 - http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1
