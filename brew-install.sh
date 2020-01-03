@@ -30,6 +30,7 @@ binaries=(
 	asdf
 	postgresql
 	redis
+	wget
 	# libdvdcss - for digitizing my dvds
 )
 
@@ -63,15 +64,14 @@ apps=(
 	rightfont
 	hyperbackupexplorer
 	# handbrake - for digitizing my dvds
-
-	# communications
-	zoomus
-	muzzle
-
-	# browsers
+	
+	# browsers & communications
 	google-chrome
 	firefox
 	opera
+	private-internet-explorer
+	zoomus
+	muzzle
 
 	# entertainment
 	spotify
