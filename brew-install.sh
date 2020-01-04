@@ -31,6 +31,8 @@ binaries=(
 	postgresql
 	redis
 	wget
+	coreutils # for asdf nodejs plugin
+	gpg # for asdf nodejs plugin
 	# libdvdcss - for digitizing my dvds
 )
 
