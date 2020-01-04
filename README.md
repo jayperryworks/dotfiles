@@ -8,27 +8,21 @@
 1. set up [privacy settings](https://spreadprivacy.com/mac-privacy-tips-13395592a9b4) and [hosts file](https://someonewhocares.org/hosts/hosts).
 1. download these files and move to user root. you may need to [reveal hidden files in the finder](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
 1. install [terminal theme](https://github.com/robinbentley/oceanic-next-macos-terminal).
-2. install [xcode & rvm](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1) and [node](https://nodejs.org/en/download/package-manager/#osx): `curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"`
+2. install [xcode dev tools](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1): `xcode-select --install`
+3. download `brew-install.sh` & save to user root. 
+    1. run `$ chmod +x brew-install.sh` to set permissions
+    2. then run `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
+4. add [asdf](https://asdf-vm.com/#/core-manage-plugins) plugins and versions: `asdf plugin-add ruby nodejs`. Note the `nodejs` plugin has some [dependencies](https://github.com/asdf-vm/asdf-nodejs) (which were hopefully installed by the shell script above). Then install versions as needed:
+    1. `$ asdf install ruby latest`
+    2. `$ asdf install nodejs [LTS number]` (for some reason 'latest' doesn't seem to work with Node)
 3. set up system config files:
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
     2. add .bash_profile to user root
 4. set up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
 5. install apps from app store (both personal and business accts)
-6. download brew-install.sh & save to user root. run `$ chmod +x brew-install.sh`, then `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
-6. Configure Postgresql after Brew installs it:
-    1. `$ psql postgres -U [your mac username]`
-    2. `CREATE ROLE postgres SUPERUSER;`
-    3. `ALTER ROLE postgres WITH LOGIN;`
-    4. `ALTER ROLE postgres WITH CREATEROLE;`
-    5. `ALTER ROLE postgres WITH CREATEDB;`
-    6. `\du` to check user table.
-    7. `\list` to see a list of databases.
-    8. `\q` to quit.
-7. Download & set up [Dropbox](https://www.dropbox.com/install) & [Google Drive](https://support.google.com/drive/answer/7329379?hl=en)
-8. install [Rightfont](https://rightfontapp.com) and hook it up to synced folders:
-    - `Documents/fonts`
-    - Bivee font repository
-9. grab misc preferences from backup > software > \_preferences to configure everything
+7. Download & set up [Google Drive](https://support.google.com/drive/answer/7329379?hl=en)
+8. install [Rightfont](https://rightfontapp.com) and import font libraries (`cmd + O`) from `~/Documents/Fonts`
+9. grab misc preferences from `backup > software > _preferences` to configure everything
 10. download/set up drivers:
     - [wacom tablet](http://wacom.com/en-us/support/product-support/drivers) - prefs are in Archive > Software > \_preferences
     - [scanner](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=88368&infoType=Downloads)
@@ -43,6 +37,18 @@ Launch Sublime Text and [install package control](https://packagecontrol.io/inst
 
 ### Sketch plugins
 Use the same aliasing trick as Sublime, above, for Sketch plugins. Go to `Plugins > Manage Plugins` and then select the gear at the bottom left and `Reveal Plugins Folder`. `cd` into this in terminal, delete the plugins folder, and create an alias pointing to the synced folder: `ln -s ~/Documents/Config/Sketch/Plugins`.
+
+### Postgresql config
+Configure Postgresql (if needed for Rails) after Brew installs it:
+
+1. `$ psql postgres -U [your mac username]`
+2. `CREATE ROLE postgres SUPERUSER;`
+3. `ALTER ROLE postgres WITH LOGIN;`
+4. `ALTER ROLE postgres WITH CREATEROLE;`
+5. `ALTER ROLE postgres WITH CREATEDB;`
+6. `\du` to check user table.
+7. `\list` to see a list of databases.
+8. `\q` to quit.
 
 ### Browser extensions
 
