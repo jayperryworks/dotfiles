@@ -3,7 +3,8 @@ export PATH="/usr/local/bin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # asdf config
-source "$HOME/.asdf/asdf.sh"
-source "$HOME/.asdf/completions/asdf.bash"
+# -> https://asdf-vm.com/#/core-manage-asdf-vm?id=install-asdf-vm (Add to your shell > ZSH)
+. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 export PATH="$(yarn global bin):$PATH"
