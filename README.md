@@ -24,7 +24,7 @@
 4. set up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
 5. install apps from app store (both personal and business accts)
 7. Download & set up [Google Drive](https://support.google.com/drive/answer/7329379?hl=en)
-8. install [Rightfont](https://rightfontapp.com) and import font libraries (`cmd + O`) from `~/Documents/Fonts`
+8. Open [Rightfont](https://rightfontapp.com) (installed by `brew-install` script) and import font libraries (`cmd + O`) from `~/Documents/Fonts`
 9. grab misc preferences from `backup > software > _preferences` to configure everything
 10. download/set up drivers:
     - [wacom tablet](http://wacom.com/en-us/support/product-support/drivers) - prefs are in Archive > Software > \_preferences
