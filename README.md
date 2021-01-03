@@ -12,9 +12,12 @@
 3. download `brew-install.sh` & save to user root. 
     1. run `$ chmod +x brew-install.sh` to set permissions
     2. then run `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
-4. add [asdf](https://asdf-vm.com/#/core-manage-plugins) plugins and versions: `asdf plugin-add ruby nodejs`. Note the `nodejs` plugin has some [dependencies](https://github.com/asdf-vm/asdf-nodejs) (which were hopefully installed by the shell script above). Then install versions as needed:
-    1. `$ asdf install ruby latest`
-    2. `$ asdf install nodejs [LTS number]` (for some reason 'latest' doesn't seem to work with Node)
+4. add [asdf](https://asdf-vm.com/#/core-manage-plugins) plugins and versions: 
+    1. `asdf plugin-add ruby`
+    2. `asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git &&  bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'` Note the `nodejs` plugin has some [dependencies and complications](https://github.com/asdf-vm/asdf-nodejs) (which were hopefully installed by the shell script above). 
+    3. Then install versions as needed:
+        1. `$ asdf install ruby latest`
+        2. `$ asdf install nodejs [LTS number]` (for some reason 'latest' doesn't seem to work with Node)
 3. set up system config files:
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
     2. add .bash_profile to user root
