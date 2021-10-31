@@ -28,9 +28,6 @@ binaries=(
 	git
 	git-lfs
 	asdf
-	postgresql
-	redis
-	wget
 	coreutils # for asdf nodejs plugin
 	gpg # for asdf nodejs plugin
 	# libdvdcss - for digitizing my dvds
@@ -58,15 +55,20 @@ apps=(
 	clockify
 	rightfont
 	hyperbackupexplorer
+	visual-studio-code
+	pika
+	tiny-ipsum
+	notion
 	# handbrake - for digitizing my dvds
 	
 	# browsers & communications
 	google-chrome
 	firefox
 	opera
-	private-internet-access
+	mullvad-vpn
 	zoomus
 	muzzle
+	tuple
 
 	# entertainment
 	spotify
