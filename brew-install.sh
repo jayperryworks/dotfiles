@@ -65,7 +65,7 @@ apps=(
 	firefox
 	opera
 	mullvadvpn
-	zoomus
+	zoom
 	muzzle
 	tuple
 
