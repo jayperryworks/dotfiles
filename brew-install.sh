@@ -57,7 +57,6 @@ apps=(
 	hyperbackupexplorer
 	visual-studio-code
 	pika
-	tiny-ipsum
 	notion
 	# handbrake - for digitizing my dvds
 	
