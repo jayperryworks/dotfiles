@@ -26,7 +26,6 @@ brew doctor
 
 binaries=(
 	git
-	git-lfs
 	asdf
 	coreutils # for asdf nodejs plugin
 	gpg # for asdf nodejs plugin
@@ -50,7 +49,7 @@ apps=(
 
 	# tools
 	# alfred - need to download directly from website
-	sublime-text
+	1password
 	pdf-expert
 	clockify
 	rightfont
@@ -58,9 +57,13 @@ apps=(
 	visual-studio-code
 	pika
 	notion
+	canva
+	mullvadvpn
 	# handbrake - for digitizing my dvds
 	
 	# browsers & communications
+	discord
+	microsoft-teams
 	google-chrome
 	firefox
 	opera
@@ -68,9 +71,7 @@ apps=(
 	zoom
 	muzzle
 	tuple
-
-	# entertainment
-	spotify
+	brave-browser
 )
 
 # Install apps to /Applications
