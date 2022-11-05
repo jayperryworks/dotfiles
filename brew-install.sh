@@ -59,6 +59,7 @@ apps=(
 	notion
 	canva
 	mullvadvpn
+	figma
 	# handbrake - for digitizing my dvds
 	
 	# browsers & communications
