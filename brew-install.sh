@@ -73,6 +73,7 @@ apps=(
 	muzzle
 	tuple
 	brave-browser
+	readdle-spark
 )
 
 # Install apps to /Applications
