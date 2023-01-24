@@ -68,12 +68,13 @@ apps=(
 	google-chrome
 	firefox
 	opera
+	brave-browser
 	mullvadvpn
 	zoom
 	muzzle
 	tuple
-	brave-browser
 	readdle-spark
+	discord
 )
 
 # Install apps to /Applications
