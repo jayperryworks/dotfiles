@@ -51,16 +51,16 @@ apps=(
 	# alfred - need to download directly from website
 	1password
 	pdf-expert
-	clockify
 	rightfont
 	hyperbackupexplorer
 	visual-studio-code
 	pika
 	notion
+	obsidian
 	canva
 	mullvadvpn
 	figma
-	# handbrake - for digitizing my dvds
+	handbrake #for digitizing my dvds
 	
 	# browsers & communications
 	discord
@@ -74,7 +74,7 @@ apps=(
 	muzzle
 	tuple
 	readdle-spark
-	discord
+	microsoft-teams
 )
 
 # Install apps to /Applications
