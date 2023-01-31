@@ -9,7 +9,8 @@
 1. download these files and move to user root. you may need to [reveal hidden files in the finder](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
 1. install [terminal theme](https://github.com/robinbentley/oceanic-next-macos-terminal).
 2. install [xcode dev tools](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1): `xcode-select --install`
-3. download `brew-install.sh` & save to user root. 
+3. install [Homebrew](https://brew.sh) and run `brew doctor` to verify it works.
+4. download `brew-install.sh` & save to user root. 
     1. run `$ chmod +x brew-install.sh` to set permissions
     2. then run `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
 4. add [asdf](https://asdf-vm.com/#/core-manage-plugins) plugins and versions: 
