@@ -13,11 +13,7 @@
 # Usage: $ chmod +x brew-install.sh
 #        $ ./brew-install.sh
 
-# Check for Homebrew and install if we don't have it
-if test ! $(which brew); then
-  echo "Installing homebrew..."
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
+# Install Homebrew (https://brew.sh) before running this
  
 # Make sure things are current and fix any issues
 brew update
