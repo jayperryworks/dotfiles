@@ -13,7 +13,8 @@
 4. download `brew-install.sh` & save to user root. 
     1. run `$ chmod +x brew-install.sh` to set permissions
     2. then run `$ ./brew-install.sh` to install all the homebrew packages and (non-app-store) apps. (this will automatically install homebrew itself)
-4. add [asdf](https://asdf-vm.com/#/core-manage-plugins) plugins and versions: 
+4. check that [ASDF installed](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf) correctly and that paths are set up
+5. add [asdf](https://asdf-vm.com/#/core-manage-plugins) plugins and versions: 
     1. `asdf plugin-add ruby`
     2. `asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git &&  bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'` Note the `nodejs` plugin has some [dependencies and complications](https://github.com/asdf-vm/asdf-nodejs) (which were hopefully installed by the shell script above). 
     3. Then install versions as needed:
@@ -22,7 +23,7 @@
 3. set up system config files:
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
     2. add .bash_profile to user root
-4. set up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
+4. set up SSH keys via [Github](https://help.github.com/articles/generating-ssh-keys/) or 1Password's SSH Agent.
 5. install apps from app store (both personal and business accts)
 6. Install [Affinity apps](https://store.serif.com/en-us/account/) (not available on Homebrew or app store)
 8. Open [Rightfont](https://rightfontapp.com) (installed by `brew-install` script) and import font libraries (`cmd + O`) from `~/Documents/Fonts`
