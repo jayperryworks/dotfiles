@@ -53,7 +53,6 @@ apps=(
 	pika
 	notion
 	obsidian
-	canva
 	mullvadvpn
 	figma
 	handbrake #for digitizing my dvds
@@ -65,11 +64,9 @@ apps=(
 	firefox
 	opera
 	brave-browser
-	mullvadvpn
 	zoom
 	muzzle
 	tuple
-	readdle-spark
 	microsoft-teams
 )
 
