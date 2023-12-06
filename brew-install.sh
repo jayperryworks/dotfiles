@@ -17,15 +17,17 @@
  
 # Make sure things are current and fix any issues
 brew update
-brew upgrade
 brew doctor
 
 binaries=(
-	git
 	asdf
 	coreutils # for asdf nodejs plugin
 	gpg # for asdf nodejs plugin
-	# libdvdcss - for digitizing my dvds
+	libdvdcss # for digitizing my dvds
+	pandoc
+	imagemagick
+	php
+	git
 )
 
 # Install Binaries
@@ -40,34 +42,31 @@ brew cleanup
 
 # Apps
 apps=(
-	# file sync/FTP
-	transmit
-
-	# tools
-	# alfred - need to download directly from website
 	1password
-	pdf-expert
-	rightfont
+	1password-cli
+	brave-browser
+	discord
+	figma
+	firefox
+	google-chrome
+	handbrake
 	hyperbackupexplorer
-	visual-studio-code
-	pika
+	microsoft-teams
+	microsoft-teams
+	mullvad-browser
+	mullvadvpn
+	muzzle
 	notion
 	obsidian
-	mullvadvpn
-	figma
-	handbrake #for digitizing my dvds
-	
-	# browsers & communications
-	discord
-	microsoft-teams
-	google-chrome
-	firefox
 	opera
-	brave-browser
-	zoom
-	muzzle
+	pdf-expert
+	pika
+	readdle-spark
+	rightfont
+	transmit
 	tuple
-	microsoft-teams
+	visual-studio-code
+	zoom
 )
 
 # Install apps to /Applications
