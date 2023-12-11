@@ -23,7 +23,7 @@
 3. set up system config files:
     1. global .gitignore: `git config --global core.excludesfile '~/.gitignore_global'`
     2. add .bash_profile to user root
-4. set up SSH keys via [Github](https://help.github.com/articles/generating-ssh-keys/) or 1Password's SSH Agent.
+4. set up SSH keys via [Github](https://help.github.com/articles/generating-ssh-keys/) or [1Password's SSH Agent](https://developer.1password.com/docs/ssh/get-started/).
 5. install apps from app store (both personal and business accts)
 6. Install [Affinity apps](https://store.serif.com/en-us/account/) (not available on Homebrew or app store)
 8. Open [Rightfont](https://rightfontapp.com) (installed by `brew-install` script) and import font libraries (`cmd + O`) from `~/Documents/Fonts`
