@@ -44,7 +44,6 @@ brew cleanup
 apps=(
 	1password
 	1password-cli
-	brave-browser
 	discord
 	figma
 	firefox
@@ -57,7 +56,6 @@ apps=(
 	mullvadvpn
 	muzzle
 	notion
-	obsidian
 	opera
 	pdf-expert
 	pika
