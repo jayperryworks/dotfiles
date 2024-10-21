@@ -37,9 +37,6 @@
       3. (on mac) control panel > printers & scanners > add.
       4. select Epson printer
 
-### Sketch plugins
-Use the same aliasing trick as Sublime, above, for Sketch plugins. Go to `Plugins > Manage Plugins` and then select the gear at the bottom left and `Reveal Plugins Folder`. `cd` into this in terminal, delete the plugins folder, and create an alias pointing to the synced folder: `ln -s ~/Documents/Config/Sketch/Plugins`.
-
 ### Browser extensions
 
 #### Safari
@@ -48,7 +45,6 @@ Use the same aliasing trick as Sublime, above, for Sketch plugins. Go to `Plugin
 - [Todoist](https://apps.apple.com/us/app/todoist-to-do-list-tasks/id585829637?mt=12)
 
 #### Firefox
-- [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
 - [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - [Vue Devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
 - [1Password](https://1password.com/browsers/firefox/)
