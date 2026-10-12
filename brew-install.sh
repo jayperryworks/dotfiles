@@ -42,15 +42,14 @@ brew cleanup
 
 # Apps
 apps=(
-	1password
+	# 1password
 	1password-cli
-	discord
+	# discord
 	figma
 	firefox
 	google-chrome
 	handbrake
 	hyperbackupexplorer
-	microsoft-teams
 	microsoft-teams
 	mullvad-browser
 	mullvadvpn
@@ -62,8 +61,10 @@ apps=(
 	readdle-spark
 	rightfont
 	transmit
-	tuple
-	visual-studio-code
+	# tuple
+	# visual-studio-code
+	zed
+	zen
 	zoom
 )
 
