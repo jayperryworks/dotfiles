@@ -44,25 +44,23 @@ brew cleanup
 apps=(
 	# 1password
 	1password-cli
-	# discord
 	figma
 	firefox
+	fujifilm-x-raw-studio
 	google-chrome
-	handbrake
-	hyperbackupexplorer
+	handbrake-app
 	microsoft-teams
 	mullvad-browser
 	mullvadvpn
 	muzzle
-	notion
+	obsidian
 	opera
 	pdf-expert
 	pika
 	readdle-spark
 	rightfont
+	signal
 	transmit
-	# tuple
-	# visual-studio-code
 	zed
 	zen
 	zoom
