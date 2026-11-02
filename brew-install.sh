@@ -44,6 +44,7 @@ brew cleanup
 apps=(
 	# 1password
 	1password-cli
+	affinity
 	figma
 	firefox
 	fujifilm-x-raw-studio
