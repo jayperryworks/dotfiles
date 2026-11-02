@@ -42,7 +42,7 @@ brew cleanup
 
 # Apps
 apps=(
-	# 1password
+	1password
 	1password-cli
 	affinity
 	figma
